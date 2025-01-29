@@ -165,7 +165,3 @@ class Eleptic_curves:
             if (is_quad_residue(square_y_coord, self.p)):
                 point, loop_flag = [x_coord, sqrt_mod(square_y_coord, self.p)], True
         return point
-
-#me = Eleptic_curves(2, 3, 1125899906843)
-#me.find_the_generator()
-#me.finding_points()
